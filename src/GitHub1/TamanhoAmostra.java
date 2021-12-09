@@ -3,10 +3,11 @@ package GitHub1;
 import java.util.Scanner;
 
 public class TamanhoAmostra {
-    public static final double NIVEL_CONFIANCA_90PORCENTO = 1.645;
-    public static final double NIVEL_CONFIANCA_95PORCENTO = 1.96;
-    public static final double NIVEL_CONFIANCA_98PORCENTO = 2.33;
-    public static final double NIVEL_CONFIANCA_99PORCENTO = 2.58;
+    public static final double 
+    NIVEL_CONFIANCA_90PORCENTO = 1.645,
+    NIVEL_CONFIANCA_95PORCENTO = 1.96,
+    NIVEL_CONFIANCA_98PORCENTO = 2.33, 
+    NIVEL_CONFIANCA_99PORCENTO = 2.58;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -18,7 +19,7 @@ public class TamanhoAmostra {
 
             System.out.print("Informe qual a proporção: ");
             //Essa proporção se refere à percentagem que a gente pretende estudar sobre a população
-            //Exemplo: Qual a probabilidade de 95% dos meus contatos (amigos) no instagram usarem o app(Instagram) menos de 3h por dia?
+            //Exemplo: Qual a probabilidade de 95% dos meus contatos (amigos) no instagram usarem o app(Instagram)por menos de 3h por dia?
             //Daí a sua proporção é de 95%.
             double proporcao = scanner.nextDouble();
             if (proporcao >= 0 && proporcao < 100) {
@@ -65,11 +66,11 @@ public class TamanhoAmostra {
             //Ou seja, conseguimos o tamanho da amostra de forma estratégica seguindo alguns passos estatísticos, aplicando os erros e os níveis de confiança.
             //Após saber o resultado da amostra, existe ainda vários métodos de amostragem para poder selecionar de forma correta essas 58 pessoas dentre os 131.
             //E com isso o nosso relatório será aplicado para uma amostra de 58 pessoas, o que nos dará uma base para responder sobre a população.
-            //Vamos supor hipoteticamente que apenas 20 pessoas das 58 que apliquei o relatório, usam o Instagram menos de 3h por dia, eu poderia afirmar que 20 de 58 é aproximadamente 34%.
-            //Ou seja, eu poderia responder pelo total populacional (131 Pessoas), afirmando que apenas 34% dos meus contatos usam o app menos de 3h por dia.
+            //Vamos supor hipoteticamente que apenas 20 pessoas das 58 que apliquei o relatório, usam o Instagram por menos de 3h por dia, eu poderia afirmar que 20 de 58 é aproximadamente 34%.
+            //Ou seja, eu poderia responder pelo total populacional (131 Pessoas), afirmando que apenas 34% dos meus contatos usam o app por menos de 3h por dia.
 
 
-            //OBSERVAÇÃO: Esse exemplo é extremamente hipotético, para selecionarmos de forma precisa essas 58 pessoas(de um total de 131) para responder o relatório, devemos aplicar outros métodos de amostragem, não é apenas escolher 58 pessoas randomicamente e aplicar o relatório..Existe métodos mais eficientes com cálculos estatísticos estratégicos.
+            //OBSERVAÇÃO: Esse exemplo é extremamente hipotético, para selecionarmos de forma precisa essas 58 pessoas(de um total de 131) para responder o relatório, devemos aplicar outros métodos de amostragem, não é apenas escolher 58 pessoas randomicamente e aplicar o relatório..Existem métodos mais eficientes com cálculos estatísticos estratégicos para a escolha dessas 58 pessoas.
             //Esse método que desenvolvi é apenas para saber o  tamanho de uma amostra que devemos escolher para uma determinada população, tendo em vista níveis de confiança e de erros amostrais.
 
             switch (nivelDeSignificancia) {
