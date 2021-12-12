@@ -16,7 +16,7 @@ Mostrando como escolher o tamanho da amostra referente à uma determinada popula
      Escolhendo o erro amostral:
 Irnformar a percentagem de erro que deseja aplicar na amostra. ###Exemplo: 5% de erro, ou seja, teremos 5% de erro na decisão do tamanho de amostra sobre a população em estudo.
 
-        Tabela Z e níveis de confiança Existe uma tabela, chamada de tabela Z que nos informa os níveis de confiança e os seus respectivos valores. Como queremos uma alta confiabilidade nas nossas pesquisas desenvolvi 4 níveis, sendo esses: ### [90%] = 1.64 , [95%] =1.96,[98%]= 2.33,[99%] = 2.58.
+        Tabela Z e níveis de confiança. Existe uma tabela, chamada de tabela Z que nos informa os níveis de confiança e os seus respectivos valores. Como queremos uma alta confiabilidade nas nossas pesquisas desenvolvi 4 níveis, sendo esses: ### [90%] = 1.64 , [95%] =1.96,[98%]= 2.33,[99%] = 2.58.
 
      Escolhendo o nível de confiança:
 Exemplo: Vamos aplicar um nível de 98% de confiança para a escolha no tamanho da amostra.
