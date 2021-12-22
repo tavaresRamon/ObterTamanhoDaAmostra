@@ -50,10 +50,17 @@ public class TamanhoAmostra {
             double nivel98 = Math.pow(NIVEL_CONFIANCA_98PORCENTO, 2);
             double nivel99 = Math.pow(NIVEL_CONFIANCA_99PORCENTO, 2);
 
-            double formulaPara90 = (populacao * nivel90 * proporcaoPercen * (1 - proporcaoPercen)) / (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel90 * proporcaoPercen * (1 - proporcaoPercen));
-            double formulaPara95 = (populacao * nivel95 * proporcaoPercen * (1 - proporcaoPercen)) / (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel95 * proporcaoPercen * (1 - proporcaoPercen));
-            double formulaPara98 = (populacao * nivel98 * proporcaoPercen * (1 - proporcaoPercen)) / (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel98 * proporcaoPercen * (1 - proporcaoPercen));
-            double formulaPara99 = (populacao * nivel99 * proporcaoPercen * (1 - proporcaoPercen)) / (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel99 * proporcaoPercen * (1 - proporcaoPercen));
+            double formulaPara90 = (populacao * nivel90 * proporcaoPercen * (1 - proporcaoPercen)) /
+                (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel90 * proporcaoPercen * (1 - proporcaoPercen));
+            
+            double formulaPara95 = (populacao * nivel95 * proporcaoPercen * (1 - proporcaoPercen)) /
+                (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel95 * proporcaoPercen * (1 - proporcaoPercen));
+            
+            double formulaPara98 = (populacao * nivel98 * proporcaoPercen * (1 - proporcaoPercen)) /
+                (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel98 * proporcaoPercen * (1 - proporcaoPercen));
+            
+            double formulaPara99 = (populacao * nivel99 * proporcaoPercen * (1 - proporcaoPercen)) /
+                (((populacao - 1) * Math.pow(erroAmostralToleravel, 2)) + nivel99 * proporcaoPercen * (1 - proporcaoPercen));
 
             System.out.println("O Nível de confiança que se deseja obter é de " + nivelDeSignificancia + "%");
             System.out.println("------------------------------------------------------------------------");
