@@ -11,7 +11,7 @@ Mostrando como escolher o tamanho da amostra referente à uma determinada popula
  Exemplo: Amigos do instagram [População = 131]
 
       Escolhendo a proporção:
- Essa proporção é referente à percentagem que a gente pretende estudar sobre a população ### Exemplo: Qual a probabilidade de 95% dos meus contatos(amigos) no instagram usarem o app(Instagram) por menos de 3h ao dia? ### Com isso a sua proporção é de 95%.
+ Essa proporção é referente à percentagem que a gente pretende estudar sobre a população ### Exemplo: Qual a probabilidade de 95% dos meus contatos(amigos) no instagram usarem o app(Instagram) ao menos de 3h por dia? ### Com isso a sua proporção é de 95%.
 
      Escolhendo o erro amostral:
 Irnformar a percentagem de erro que deseja aplicar na amostra. ###Exemplo: 5% de erro, ou seja, teremos 5% de erro na decisão do tamanho de amostra sobre a população em estudo.
