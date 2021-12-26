@@ -21,7 +21,7 @@ Irnformar a percentagem de erro que deseja aplicar na amostra. ###Exemplo: 5% de
      Escolhendo o nível de confiança:
 Exemplo: Vamos aplicar um nível de 98% de confiança para a escolha no tamanho da amostra.
 
-           Após informar o tamanho da população, a proporção dessa população, o erro amostral que entre (0~99)% e um dos 4 níveis de confiança.
+           Após informar o tamanho da população, a proporção dessa população, o erro amostral que entre (0~99)% e um dos 4 níveis de confiança:
 
    Pronto,após inserir e calcular os valores do exemplo citado, obtivemos uma amostra de tamanho [58], ou seja, se quisermos obter um relatório para saber se 95% dos contatos usam o app(Instagram) menos de 3h por dia, devemos escolher 58 pessoas dentre as 131 (usando algumas técnicas amostrais) e aplicarmos um questionário para a coleta dos dados.
 
